@@ -1,11 +1,11 @@
 # Product Catalog
 
-[![React](https://img.shields.io/badge/react-19-blue.svg)](https://reactjs.org/)
-[![TypeScript](https://img.shields.io/badge/typescript-5.0-blue.svg)](https://www.typescriptlang.org/)
-[![React Router](https://img.shields.io/badge/react_router-6-blue.svg)](https://reactrouter.com/)
-[![TanStack Query](https://img.shields.io/badge/tanstack_query-5.0-blue.svg)](https://tanstack.com/query)
-[![Tailwind CSS](https://img.shields.io/badge/tailwind_css-3.0-blue.svg)](https://tailwindcss.com/)
-[![MockAPI.io](https://img.shields.io/badge/mockapi-blue.svg)](https://mockapi.io)
+[![React](https://img.shields.io/badge/react-19-blue.svg?logo=react)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/typescript-5.0-blue.svg?logo=typescript)](https://www.typescriptlang.org/)
+[![React Router](https://img.shields.io/badge/react_router-6-blue.svg?logo=react-router)](https://reactrouter.com/)
+[![TanStack Query](https://img.shields.io/badge/tanstack_query-5.0-blue.svg?logo=tanstack)](https://tanstack.com/query)
+[![Tailwind CSS](https://img.shields.io/badge/tailwind_css-3.0-blue.svg?logo=tailwind-css)](https://tailwindcss.com/)
+[![MockAPI.io](https://img.shields.io/badge/mockapi-blue.svg?logo=api)](https://mockapi.io)
 
 A simple product catalog application built with React, TypeScript, and React Router.
 
