@@ -1,24 +1,33 @@
-# Welcome to React Router!
+# Product Catalog
 
-A modern, production-ready template for building full-stack React applications using React Router.
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+A simple product catalog application built with React, TypeScript, and React Router.
 
 ## Features
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+- 🚀 Product listing page with grid layout
+- 📱 Responsive design for desktop and mobile
+- 🔄 Data fetching with TanStack Query
+- 🎯 Product detail view
+- ⚡️ Fast page transitions
+- 🎨 Clean and modern UI with Tailwind CSS
 
 ## Getting Started
 
+### Prerequisites
+
+- Node.js 18 or higher
+- npm or yarn
+
 ### Installation
 
-Install the dependencies:
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/product-catalog.git
+cd product-catalog
+```
+
+2. Install dependencies:
 
 ```bash
 npm install
@@ -26,15 +35,15 @@ npm install
 
 ### Development
 
-Start the development server with HMR:
+Start the development server:
 
 ```bash
 npm run dev
 ```
 
-Your application will be available at `http://localhost:5173`.
+The application will be available at `http://localhost:5173`.
 
-## Building for Production
+### Building for Production
 
 Create a production build:
 
@@ -42,46 +51,37 @@ Create a production build:
 npm run build
 ```
 
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
+## Project Structure
 
 ```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
+├── app/
+│   ├── components/     # Reusable components
+│   ├── routes/         # Page components
+│   ├── services/       # API services
+│   ├── types/          # TypeScript types
+│   └── root.tsx        # Root component
+├── public/             # Static assets
+└── package.json        # Project dependencies
 ```
 
-## Styling
+## Technologies Used
 
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+- React 19
+- TypeScript
+- React Router
+- TanStack Query
+- Tailwind CSS
+- MockAPI.io (for mock REST API endpoints)
 
----
+## API Integration
 
-Built with ❤️ using React Router.
+This project uses [MockAPI.io](https://mockapi.io) to provide mock REST API endpoints for the product catalog. The mock API provides the following endpoints:
+
+- `GET /products` - Fetch all products
+- `GET /products/:id` - Fetch a single product by ID
+
+To use your own mock API:
+
+1. Create an account at [MockAPI.io](https://mockapi.io)
+2. Create a new resource with the schema matching the product data structure
+3. Update the API base URL in the application configuration
