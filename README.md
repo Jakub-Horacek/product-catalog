@@ -1,11 +1,11 @@
 # Product Catalog
 
-[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
-[![React Router](https://img.shields.io/badge/React%20Router-6-61DAFB?style=for-the-badge&logo=react-router)](https://reactrouter.com/)
-[![TanStack Query](https://img.shields.io/badge/TanStack%20Query-5.0-FF4154?style=for-the-badge&logo=tanstack)](https://tanstack.com/query)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.0-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
-[![MockAPI.io](https://img.shields.io/badge/MockAPI.io-API-FF6B6B?style=for-the-badge)](https://mockapi.io)
+[![React](https://img.shields.io/badge/react-19-blue.svg)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/typescript-5.0-blue.svg)](https://www.typescriptlang.org/)
+[![React Router](https://img.shields.io/badge/react_router-6-blue.svg)](https://reactrouter.com/)
+[![TanStack Query](https://img.shields.io/badge/tanstack_query-5.0-blue.svg)](https://tanstack.com/query)
+[![Tailwind CSS](https://img.shields.io/badge/tailwind_css-3.0-blue.svg)](https://tailwindcss.com/)
+[![MockAPI.io](https://img.shields.io/badge/mockapi-blue.svg)](https://mockapi.io)
 
 A simple product catalog application built with React, TypeScript, and React Router.
 
@@ -30,7 +30,7 @@ A simple product catalog application built with React, TypeScript, and React Rou
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/product-catalog.git
+git clone https://github.com/Jakub-Horacek/product-catalog.git
 cd product-catalog
 ```
 
